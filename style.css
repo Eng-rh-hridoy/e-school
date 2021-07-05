@@ -82,3 +82,56 @@ section{
     background-color: #FFFFFF;
     box-shadow: 5px 5px 20px lightgrey;
 }
+.cards-section{
+    margin: 100px 0px;
+}
+.card-section-title{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.card{
+    padding: 15px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 20px lightgrey;
+}
+.card img{
+    border-radius: 11px;
+}
+.card-title{
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.buy-btn{
+    padding: 8px 28px;
+    color: white;
+    background-color: #21B573;
+    border: none;
+    border-radius: 33px;
+    width: 137px;
+    height: 35px;
+    font-size: 14px;
+}
+.card-footer-col img{
+    width: 18px;
+    height: 20px;
+}
+.card-footer-col p{
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #585859;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
