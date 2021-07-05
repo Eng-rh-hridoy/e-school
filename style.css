@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 60px;
+}
+.header{
+    width: 100%;
+    background-color: #F0FFF0;
+}
+.nav-option-wrap{
+    font-weight: 500;
+    font-size: 16px;
+}
+@media (min-width: 992px) {
+    .nav-option-wrap{
+        width: 490px;
+    }
+    .top-section h1{
+        width: 405px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .top-section .pera{
+        width: 403px;
+        font-size: 16px;
+        color: #6C6B6B;
+        line-height: 36px;
+    }
+}
+.grn-btn{
+    padding: 12px 28px;
+    color: white;
+    background-color: #21B573;
+    border: none;
+    border-radius: 45px;
+}
+.top-section{
+    margin-top: 50px;
+}
+.top-section-rigth img{
+    width: 100%;
+}
+.top-section-question-red{
+    color: #FD511A;
+}
+.top-section h1{
+    font-weight: 700;
+}
+.high-light-text{
+    color: #21B573;
+}
+.top-section .pera{
+    font-size: 16px;
+    color: #6C6B6B;
+}
+.content-wraper{
+    margin-bottom: 30px;
+}
+.summry-col img{
+    margin: 40px 0px 50px 0px;
+    width: 40%;
+    height: 95px;
+}
+.summry-col{
+    width: 265px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    background-color: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+}
+.summry-col h3{
+    font-size: 24px;
+}
+#summry-col-id{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 20px lightgrey;
+}
