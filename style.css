@@ -104,6 +104,7 @@ section{
     font-size: 24px;
     line-height: 36px;
     color: #413960;
+    text-align: center;
 }
 .card-text{
     font-size: 16px;
@@ -134,4 +135,47 @@ section{
 .card-footer{
     background-color: white;
     border: none;
+}
+.testimonial-col img{
+    width: 120px;
+    height: 120px;
+}
+.testimonial{
+    padding: 0px 270px;
+}
+.testimonial-container h3{
+    line-height: 36px;
+    color: #413960;
+    text-align: center;
+}
+footer{
+    background-color: #282531;
+    color: white;
+}
+.footer-row{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    /* justify-items: flex-end; */
+    /* justify-content: space-between; */
+}
+.footer-col p{
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.footer-col ul{
+    list-style-type: none;
+}
+.footer-col ul li{
+    text-align: center;
+    font-size: 12px;
+}
+.footer-col h6{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: lightgrey;
+    margin-bottom: 10px;
 }
